@@ -1,4 +1,4 @@
-# hello-world
+# portfolio-vue
 
 ## Project setup
 ```
