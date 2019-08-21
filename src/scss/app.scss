@@ -1,4 +1,13 @@
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@tailwind preflight;
+
+@import
+'./abstracts/_mixins.scss',
+'./abstracts/variables.scss',
+'./abstracts/_vertical-rhytm.scss',
+'./global/_normalize.scss';
+
 @tailwind base;
 
 @tailwind components;
