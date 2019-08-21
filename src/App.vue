@@ -1,10 +1,11 @@
 <template>
   <div id="app">
+    <Home></Home>
   </div>
 </template>
 
 <script>
-import Home from './views/Home.vue'
+import Home from '@/views/Home.vue'
 
 export default {
   name: 'app',
@@ -14,7 +15,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,4 +24,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+@import './src/scss/app.scss';
 </style>
